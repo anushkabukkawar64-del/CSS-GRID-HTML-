@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grid Task 10</title>
+    <link rel="stylesheet" href="task10.css">
+</head>
+<body>
+
+<h1>Task 10: CSS supports — Answers</h1>
+
+<div class="code-block">
+@supports (display: grid) {
+    .container {
+        display: grid;
+    }
+}
+</div>
+
+<div class="explain">
+This checks if the browser supports CSS Grid before applying the layout.
+</div>
+
+<h2>Questions & Answers:</h2>
+
+<div class="qa-grid">
+
+    <div class="qa">
+        1. Why do we check browser support?<br>
+        To avoid breaking layouts in older browsers that don't support new features.
+    </div>
+
+    <div class="qa">
+        2. What happens if Grid is not supported?<br>
+        The fallback layout (usually block or flex) is used instead.
+    </div>
+
+    <div class="qa">
+        3. Is this needed for all projects?<br>
+        No, mostly for projects that support many browsers or older devices.
+    </div>
+
+    <div class="qa">
+        4. Who uses this in real projects?<br>
+        Companies with large user bases: e-commerce, banking, government, enterprise.
+    </div>
+
+    <div class="qa">
+        5. What does safe CSS mean?<br>
+        Writing CSS that works everywhere or has fallback behavior to prevent broken UI.
+    </div>
+
+</div>
+
+</body>
+</html>

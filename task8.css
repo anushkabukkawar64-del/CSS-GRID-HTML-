@@ -1,0 +1,32 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #0d1117;
+    color: rgb(231, 131, 131);
+    padding: 35px;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #e2eaf3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+}
+
+
+.item {
+    background: #161b22;
+    border: 1.5px solid #30363d;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.45;
+    font-weight: 500;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.45);
+}
+
+

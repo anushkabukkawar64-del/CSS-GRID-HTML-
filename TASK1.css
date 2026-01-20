@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr); /* 2 boxes ek row me */
+}
+
+.item {
+    border: 2px solid rgb(117, 47, 47);
+    padding: 15px;
+    background: #fffcfd;
+}

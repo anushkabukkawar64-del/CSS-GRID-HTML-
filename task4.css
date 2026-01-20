@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 25px;
+    background: #fafafa;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.item {
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.45;
+    font-weight: 500;
+    background: #ffddd2; /* default color */
+}
+
+.header {
+  grid-area: header;
+  background: #ffd6e8; 
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #cfe8ff; 
+}
+
+.content {
+  grid-area: content;
+  background: #ffe9c2; 
+}
+
+.extra {
+  grid-area: extra;
+  background: #e3d0ff; 
+}
+
+.footer {
+  grid-area: footer;
+  background: #d2ffea; 
+}
+
+
+.bottom {
+  background: #ffe5d4; 
+}
+
